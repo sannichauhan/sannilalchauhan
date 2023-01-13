@@ -2875,9 +2875,9 @@ html[dir=rtl] .notifications-container .notify-leave-active {
     left: 0;
     height: 100%;
     width: 100%;
-    /*background: -webkit-gradient(linear, left top, right top, from(hsl(var(--main-color-one))), to(hsl(var(--main-color-two))));
-    background: linear-gradient(to right, hsl(var(--main-color-one)) 0%, hsl(var(--main-color-two)) 100%);*/
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(hsl(var(--main-color-one))), to(hsl(var(--main-color-two))));
+    background: linear-gradient(to right, hsl(var(--main-color-one)) 0%, hsl(var(--main-color-two)) 100%);
+/*    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
   }
 }
 @media (max-width: 991px) {
@@ -3328,8 +3328,8 @@ html[dir=rtl] .statistics-section .section-content .statistics-items a > .fa {
   bottom: 0;
   height: 80%;
   width: 80%;
-/*  background: linear-gradient(150deg, hsl(var(--main-color-one)) 0%, hsl(var(--main-color-two)) 100%);*/
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(150deg, hsl(var(--main-color-one)) 0%, hsl(var(--main-color-two)) 100%);
+/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
   -webkit-mask-image: url("../assets/images/blob-shape.png");
           mask-image: url("../assets/images/blob-shape.png");
   -webkit-mask-repeat: no-repeat;
